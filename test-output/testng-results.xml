@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-09T17:02:23 IST" name="Suite" finished-at="2021-05-09T17:03:42 IST" duration-ms="78231">
+    <groups>
+    </groups>
+    <test started-at="2021-05-09T17:02:23 IST" name="validating title in page" finished-at="2021-05-09T17:03:23 IST" duration-ms="59298">
+      <class name="Academy.E2EProject.ValidateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.E2EProject.ValidateTitle@29cfd92b]" started-at="2021-05-09T17:02:23 IST" name="initialize" finished-at="2021-05-09T17:03:04 IST" duration-ms="40432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="initialize()[pri:0, instance:Academy.E2EProject.ValidateTitle@29cfd92b]" started-at="2021-05-09T17:03:04 IST" name="initialize" finished-at="2021-05-09T17:03:21 IST" duration-ms="16793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.E2EProject.ValidateTitle@29cfd92b]" started-at="2021-05-09T17:03:21 IST" name="teardown" finished-at="2021-05-09T17:03:23 IST" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+    </test> <!-- validating title in page -->
+    <test started-at="2021-05-09T17:02:23 IST" name="validating navigation in page" finished-at="2021-05-09T17:03:26 IST" duration-ms="62710">
+      <class name="Academy.E2EProject.ValidateNavigation">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.E2EProject.ValidateNavigation@8a589a2]" started-at="2021-05-09T17:02:23 IST" name="initialize" finished-at="2021-05-09T17:03:07 IST" duration-ms="43624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.E2EProject.ValidateNavigation@8a589a2]" started-at="2021-05-09T17:03:07 IST" name="basePageNavigation" finished-at="2021-05-09T17:03:08 IST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.E2EProject.ValidateNavigation@8a589a2]" started-at="2021-05-09T17:03:08 IST" name="teardown" finished-at="2021-05-09T17:03:26 IST" duration-ms="18364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EProject.ValidateNavigation -->
+    </test> <!-- validating navigation in page -->
+    <test started-at="2021-05-09T17:02:23 IST" name="homepage" finished-at="2021-05-09T17:03:42 IST" duration-ms="78231">
+      <class name="Academy.E2EProject.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.E2EProject.HomePage@7f69d591]" started-at="2021-05-09T17:02:23 IST" name="initialize" finished-at="2021-05-09T17:03:21 IST" duration-ms="57445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@7f69d591]" started-at="2021-05-09T17:03:21 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-05-09T17:03:33 IST" duration-ms="12039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@7f69d591]" started-at="2021-05-09T17:03:33 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-05-09T17:03:41 IST" duration-ms="8389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.E2EProject.HomePage@7f69d591]" started-at="2021-05-09T17:03:41 IST" name="teardown" finished-at="2021-05-09T17:03:42 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </test> <!-- homepage -->
+  </suite> <!-- Suite -->
+</testng-results>
