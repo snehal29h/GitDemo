@@ -15,7 +15,6 @@ import org.testng.annotations.Test;
 import pageObjects.LandingPage;
 import pageObjects.LoginPage;
 import resources.base;
-
 public class ValidateTitle extends base {
 
 	public WebDriver driver;
