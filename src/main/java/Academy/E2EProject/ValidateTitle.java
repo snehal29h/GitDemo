@@ -15,11 +15,11 @@ import org.testng.annotations.Test;
 import pageObjects.LandingPage;
 import pageObjects.LoginPage;
 import resources.base;
-<<<<<<< HEAD
-=======
+//<<<<<<< HEAD
+//=======
 //this is a test codes
 
->>>>>>> 91cdfb191d941d404734ab2d03a6407ed8b8b518
+//>>>>>>> 91cdfb191d941d404734ab2d03a6407ed8b8b518
 public class ValidateTitle extends base {
 
 	public WebDriver driver;
